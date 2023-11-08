@@ -25,7 +25,7 @@ const ResponseProvider = ({children})=>{
                       "x-auth-token":token
                     }
                   }
-                const reponse = await axios.get("https://pro-planet-server.onrender.com/get-responses" , axiosconfig);
+                const reponse = await axios.get("https://planet-pulse-bphm.onrender.com/get-responses" , axiosconfig);
                 console.log(reponse.data);
                 dispatch({type:"SET_API_DATA" , payload:reponse.data});
 
@@ -50,7 +50,7 @@ const ResponseProvider = ({children})=>{
                 }
               }
 
-              const response = await axios.post("http://localhost:5000/approve-weekly-task" , reponseBodyparamter , axiosconfig);
+              const response = await axios.post("https://planet-pulse-bphm.onrender.com/approve-weekly-task" , reponseBodyparamter , axiosconfig);
               if(response.status===200){
                 window.location.reload();
               }
@@ -78,7 +78,7 @@ const ResponseProvider = ({children})=>{
                 submitid:submitid
               }
 
-              const response = await axios.post("https://pro-planet-server.onrender.com/decline-req" , bodyPara , axiosconfig);
+              const response = await axios.post("https://planet-pulse-bphm.onrender.com/decline-req" , bodyPara , axiosconfig);
               if(response.status===200){
                 window.location.reload();
               }else{
@@ -107,7 +107,7 @@ const ResponseProvider = ({children})=>{
                 }
               }
 
-              const response = await axios.post("https://pro-planet-server.onrender.com/decline-pro-planet-req" , bodyPara , axiosconfig);
+              const response = await axios.post("https://planet-pulse-bphm.onrender.com/decline-pro-planet-req" , bodyPara , axiosconfig);
               if(response.status===200){
                 window.location.reload();
             }

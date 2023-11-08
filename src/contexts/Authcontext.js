@@ -33,7 +33,7 @@ const AuthProvider = ({children})=>{
                     "Accept":"application/json",
                 }
             }
-            const response = await axios.post("http://localhost:5000/register" , bodyPara , axiosheader);
+            const response = await axios.post("https://planet-pulse-bphm.onrender.com/register" , bodyPara , axiosheader);
             console.log(response.data);
 
             return response.status;
@@ -57,7 +57,7 @@ const AuthProvider = ({children})=>{
                     "Accept":"application/json",
                 }
             }
-            const response = await axios.post("http://localhost:5000/login",bodyPara , axiosheader );
+            const response = await axios.post("https://planet-pulse-bphm.onrender.com/login",bodyPara , axiosheader );
             localStorage.setItem("x-auth-token" , response.data.token);
             return response.status;
             
@@ -78,7 +78,7 @@ const AuthProvider = ({children})=>{
                   "x-auth-token":localStorage.getItem("x-auth-token")
                 }
               }
-            const response = await axios.get("http://localhost:5000/get-curr-user" , axiosconfig );
+            const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-curr-user" , axiosconfig );
             const value = await response.data;
             dispatch({type:"SET_API_DATA" , payload:value});
 
@@ -104,7 +104,7 @@ const AuthProvider = ({children})=>{
               }
 
 
-                const response = await axios.post("http://localhost:5000/post-ques" ,bodyParameter , axiosconfig );
+                const response = await axios.post("https://planet-pulse-bphm.onrender.com/post-ques" ,bodyParameter , axiosconfig );
                 console.log(response.data);
         } catch (error) {
             console.log(error);

@@ -23,7 +23,7 @@ const RankingProvider = ({children})=>{
                 }
               }
 
-              const response = await axios.get("http://localhost:5000/get-ranking" , axiosconfig);
+              const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-ranking" , axiosconfig);
               dispatch({type:"SET_API_DATA" , payload:response.data});
               console.log(response.data);
             

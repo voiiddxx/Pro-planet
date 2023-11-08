@@ -18,7 +18,7 @@ const ImpressionProvider = ({children})=>{
               const bodyParameter = {
                 postid:postid,
               }
-            const response = await axios.post("http://localhost:5000/like-user-post" , bodyParameter , axiosconfig );
+            const response = await axios.post("https://planet-pulse-bphm.onrender.com/like-user-post" , bodyParameter , axiosconfig );
             if(response.status===200){
             }else{
                 alert("Some Error");
@@ -43,7 +43,7 @@ const ImpressionProvider = ({children})=>{
                 postid:postid
               }
 
-              const response = await axios.post("http://localhost:5000/post-comment-user-post" , bodyParameter , axiosconfig);
+              const response = await axios.post("https://planet-pulse-bphm.onrender.com/post-comment-user-post" , bodyParameter , axiosconfig);
               if(response.status ===200){
                 alert("Comment Posted")
               }

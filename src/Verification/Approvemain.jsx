@@ -27,7 +27,7 @@ const Approvemain = () => {
             }
              
           }
-        const response = await axios.get("https://pro-planet-server.onrender.com/get-specific-user?username="+location.state.userData.username , axiosconfig );
+        const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-specific-user?username="+location.state.userData.username , axiosconfig );
         setUserQuestions(response.data.ques);
 
     } catch (error) {

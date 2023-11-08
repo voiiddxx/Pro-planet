@@ -34,7 +34,7 @@ const TaskProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.post("http://localhost:5000/assign-task" , BodyParameter , axiosconfig );
+            const response = await axios.post("https://planet-pulse-bphm.onrender.com/assign-task" , BodyParameter , axiosconfig );
             console.log(response.data);
             alert("task Assigned");
         } catch (error) {
@@ -52,7 +52,7 @@ const TaskProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.get("http://localhost:5000/get-category-task?task_level="+category , axiosconfig);
+            const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-category-task?task_level="+category , axiosconfig);
             dispatch({type:"SET_API_DATA" , payload:response.data});
         } catch (error) {
             console.log(error);
@@ -77,7 +77,7 @@ const TaskProvider = ({children})=>{
                 extradetail:extradetail
               }
 
-              const response = await axios.post("http://localhost:5000/register-response" , submiData , axiosconfig );
+              const response = await axios.post("https://planet-pulse-bphm.onrender.com/register-response" , submiData , axiosconfig );
               console.log(response.data);
 
         } catch (error) {
@@ -97,7 +97,7 @@ const TaskProvider = ({children})=>{
             "x-auth-token":token
           }
         }
-        const response = await axios.get("http://localhost:5000/get-weekly-task" , axiosconfig );
+        const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-weekly-task" , axiosconfig );
         dispatch({type:"ALL_TASK_SET_DATA" , payload:response.data});
 
         console.log(response.data);
@@ -121,7 +121,7 @@ const TaskProvider = ({children})=>{
           taskid:taskid
         }
 
-        const response = await axios.post("http://localhost:5000/delete-specific-task" , taskData , axiosconfig);
+        const response = await axios.post("https://planet-pulse-bphm.onrender.com/delete-specific-task" , taskData , axiosconfig);
         return response.status;
       } catch (error) {
         console.log(error);
