@@ -18,7 +18,7 @@ const Start = () => {
       }
     }
     try {
-      const response = await axios.get("https://pro-planet-server.onrender.com/get-curr-user" , axiosconfig);
+      const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-curr-user" , axiosconfig);
 
       if(response.status === 200){
         if(response.data.category === "user"){
