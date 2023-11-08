@@ -33,7 +33,7 @@ const UserProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.post("http://localhost:5000/post" , bodyParameter ,axiosconfig);
+            const response = await axios.post("https://planet-pulse-bphm.onrender.com/post" , bodyParameter ,axiosconfig);
             if(response.status===200){
               window.location.reload();
             }
@@ -56,7 +56,7 @@ const UserProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.get("http://localhost:5000/get-all-post" , axiosconfig );
+            const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-all-post" , axiosconfig );
             const PostData = await response.data;
             dispatch({type:"POST_API_SET_DATA" , payload:PostData});
         } catch (error) {
@@ -75,7 +75,7 @@ const UserProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.get("http://localhost:5000/get-specific-user?username="+username , axiosconfig );
+            const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-specific-user?username="+username , axiosconfig );
             console.log(response.data);
             dispatch({type:"SPECIFIC_SET_DATA" , payload:response.data});
 
@@ -94,7 +94,7 @@ const UserProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-            const response = await axios.get("http://localhost:5000/specific-user-post?username="+username , axiosconfig );
+            const response = await axios.get("https://planet-pulse-bphm.onrender.com/specific-user-post?username="+username , axiosconfig );
             dispatch({type:"SPECIFIC_SET_DATA_POST" , payload:response.data});
 
         } catch (error) {
@@ -112,7 +112,7 @@ const UserProvider = ({children})=>{
                   "x-auth-token":token
                 }
               }
-              const response = await axios.get("http://localhost:5000/get-user-post" , axiosconfig);
+              const response = await axios.get("https://planet-pulse-bphm.onrender.com/get-user-post" , axiosconfig);
               dispatch({type:"SET_USER_POST_DATA" ,payload:response.data});
 
         } catch (error) {
@@ -136,7 +136,7 @@ const UserProvider = ({children})=>{
               const bodyPara = {
                 userprofile:userprofile
               }
-              const response = await axios.patch("http://localhost:5000/update-profile" , bodyPara , axiosconfig);
+              const response = await axios.patch("https://planet-pulse-bphm.onrender.com/update-profile" , bodyPara , axiosconfig);
               if(response.status===200){
                 window.location.reload();
               }
