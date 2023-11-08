@@ -1,0 +1,106 @@
+.close-admin-task-modal{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.764);
+    position: absolute;
+    top: 0;
+}
+
+.assing-task-main{
+    height: 650px;
+    width: 800px;
+    background-color: rgb(222, 222, 222);
+    background-image: url("https://img.freepik.com/premium-vector/light-silver-gold-glitter-confetti-light-background_88211-5493.jpg");
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.assing-task-main h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    font-size: 25px;
+}
+
+
+.task-title{
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    height: 50px;
+    width: 400px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.taskdetail{
+    height: 80px;
+    width: 400px;
+    background-color: white;
+    margin-top: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+
+.image{
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 100px;
+    background-color: white;
+    width: 400px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.assing-task-button{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assing-task-button p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.dropdown{
+    margin-top: 15px;
+    
+}
+
+.dropdown select{
+    height: 50px;
+    border: none;
+    width: 400px;
+    outline: none;
+    padding: 10px;
+}
+
+select option{
+    height: 50px;
+    padding: 30px;
+}

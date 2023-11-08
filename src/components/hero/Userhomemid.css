@@ -1,0 +1,61 @@
+.veryfi-popup{
+    margin-top: 10px;
+    height: 30px;
+    width: 600px;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.veryfi-popup p{
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+
+
+.user-home-mid-main{
+    min-height: 650px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.extra{
+    height: 1px;
+}
+
+.post-scroll{
+    height: 650px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.post-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.post-skeleton{
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-skeleton{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+

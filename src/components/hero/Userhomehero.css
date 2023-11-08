@@ -1,0 +1,360 @@
+.ush-main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.ush-left{
+    width: 300px;
+    background-color: white;
+    height : 700px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.ush-left-first{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.ush-left-first img{
+    cursor: pointer;
+    height: 160px;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ush-left-first img:hover{
+    background-color: black;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+
+
+.ush-left-first p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   
+}
+
+
+.ush-left-first p span{
+    color: rgb(39, 39, 255);
+}
+
+
+.ush-left-border{
+    height: 1px;
+    width: 280px;
+    background-color: rgb(151, 151, 151);
+    margin-top: 20px;
+}
+
+
+.ush-left-nav{
+    height: 45px;
+    width: 250px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.ush-left-nav:hover{
+    background-color: rgb(224, 224, 224);
+    
+}
+
+.ush-left-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.ush-left-nav p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 67, 67);
+    font-weight: 500;
+}
+
+.ush-left-nav-regular{
+    height: 45px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ush-left-nav-regular:hover{
+     background-color: rgb(224, 224, 224);;
+}
+
+.ush-left-nav-regular{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.ush-left-nav-regular p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 67, 67);
+    font-weight: 500;
+}
+.ush-mid{
+    margin-right: 25px;
+}
+
+.ush-right{
+    width:450px ;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+
+}
+
+.ranking-upper{
+    height: 250px;
+    background-image: url(../../Ranking//ranking.svg);
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+   background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ranking-one{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.ranking-one p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.ranking-one img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box-one{
+    height: 120px;
+    width: 95px;
+    background-color: white;
+    background-image: url("./../../Ranking//2nd.svg");
+    background-position-x: center;
+    background-position-y: center;
+
+    border-top-right-radius: 100px;
+    border-top-left-radius:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-one p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+
+.ranking-two{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.ranking-two p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.ranking-two img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box-two{
+    height: 150px;
+    width: 95px;
+    background-color: rgba(253, 61, 61, 0.979);
+    background-image: url("../../Ranking/1st.svg");
+    object-fit: contain;
+    border-top-right-radius: 100px;
+    border-top-left-radius:100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-position-x: center   ;
+}
+.box-two p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.ranking-three{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.ranking-three p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.ranking-three img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box-three{
+    height: 100px;
+    width: 95px;
+    background-color: rgb(109, 104, 243);
+    background-image: url("./../../Ranking//3rd.svg");
+    background-position-x: center;
+    background-position-y: center;
+    border-top-right-radius: 100px;
+    border-top-left-radius:100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-three p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.ranking-list{
+    background-color: white;
+    height: 400px;
+    margin-top: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.ranking-list::-webkit-scrollbar{
+    display: none;
+}
+
+.list-card{
+    height: 70px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+
+.heading-ranking{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.pos{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.pos p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.list-card img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.list-card h2{
+    color: rgb(84, 84, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: 400;
+}
+
+.list-card h4{
+    color: rgb(255, 44, 44);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    font-size: 12px;
+}

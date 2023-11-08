@@ -1,0 +1,116 @@
+.verify-modal-main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.408);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.verify-main{
+   height: 700px;
+   width: 900px;
+   background-color: white;
+   position: absolute;
+   top: 5%;
+   left: 20%;
+   border-radius: 10px;
+   overflow: hidden;
+   overflow-y: scroll;
+    
+}
+
+.verify-main::-webkit-scrollbar{
+    display: none;
+}
+
+.verify-main h1{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.verify-main p{
+    margin-left: 15px;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.verify-main p span{
+    color: rgb(44, 44, 250);
+    font-weight: 400;
+    
+}
+
+.question{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.question h2{
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.question h3{
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.question p{
+    margin-right: 50px;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+}
+
+.result{
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.result p{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.result-border{
+    height: 0.3px;
+    background-color: rgb(96, 96, 96);
+    margin-top: 20px;
+}
+
+.apply-button{
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.apply-button p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}

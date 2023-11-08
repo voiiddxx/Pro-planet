@@ -1,0 +1,107 @@
+.post-main{
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.post-upper{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-upper-left{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.post-upper-left img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.post-upper-left-text p{
+    color: rgb(33, 33, 33);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(55, 55, 255);
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.post-upper-right p{
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.post-image{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.post-image img{
+    margin-top: 10px;
+    min-height: 250px;
+    max-height: 350px;
+    max-width: 500px;
+    width: auto;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.post-detail{
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.post-detail p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+.posticons{
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.post-impression{
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.post-impression p{
+    color: rgb(25, 25, 25);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.post-border{
+    height: 0.54px;
+    width: 550px;
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}

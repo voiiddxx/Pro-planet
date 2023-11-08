@@ -1,0 +1,147 @@
+.task-close{
+height: 100vh;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.637);
+position: absolute;
+top: 0;
+}
+
+.task-container{
+    height: 650px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.task-left-view{
+    flex-basis: 50%;
+    width: 450px;
+}
+.task-right-view{
+    width: 600px;
+    margin-left: 65px;
+    margin-right: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.task-right-view::-webkit-scrollbar{
+    display: none;
+}
+
+.task-left-view img{
+    height: 650px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.task-right-view h1{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.task-right-view h1 span{
+    color: blue;
+}
+
+.task-right-view p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+.task-right-view h2{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: blue;
+}
+
+.task-image-refrence{
+    height: 350px;
+    width: 500px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.task-right-view h3{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(41, 41, 255);
+}
+
+
+.submission{
+    margin-top: 20px;
+    height: 500px;
+    background-color: #484fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.submission h1{
+    color: white;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.task-imagesubmit{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uplod{
+    height: 150px;
+    width: 400px;
+    border: 1px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.uplod p{
+    color: white;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.task-detail{
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 398px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.task-button{
+    height: 50px;
+    width: 420px;
+    margin-top: 15px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-button p{
+    color: white;
+    font-weight: 500;
+}

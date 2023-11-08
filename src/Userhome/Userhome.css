@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    bottom: 0;
+
+}
+.userhome-main{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fafbff;
+}
+
+.image-div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.419);
+    position: absolute;
+    top: 0;
+    
+}
+
+.image-container{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.image-container h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+    font-size: 20px;
+   
+}
+
+.image-input{
+    height: 80px;
+    width: 300px;
+    border: 1px dashed white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-input p{
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-button-upload{
+    height: 45px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-button-upload p{
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.close-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+   cursor: pointer;
+    border-radius: 5px;
+    margin-left: 180px;
+    
+}
+
+.close-button p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    
+}

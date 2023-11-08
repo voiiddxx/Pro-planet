@@ -1,0 +1,87 @@
+.admin-task-main-background{
+    height: 100vh;
+    width: 100%;
+    background-color: #fafbff;
+}
+.admin-task-main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.admin-task-mid{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.admin-task-mid h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    
+}
+.admin-task-card{
+    height: 150px;
+    width: 550px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.admin-card-task-image{
+    height: 120px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.admin-card-task-image img{
+    height: 120px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+.admin-task-card-text h1{
+    color: blue;
+    margin-left: 12px;
+
+}
+
+.admin-task-card-text p{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.admin-task-card-button{
+    height: 100%;
+    width: 90px;
+    background-color: red;
+    
+}
+
+.admin-task-card-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

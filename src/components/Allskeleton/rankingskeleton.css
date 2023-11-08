@@ -1,0 +1,36 @@
+.ranking-skeleton{
+background-color: white;
+border-radius: 10px;
+}
+
+.skeleton-upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skel-one{
+    margin-top: 50px;
+}
+
+.skel-three{
+    margin-top: 80px;
+}
+
+.skelton-bar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-one-skel{
+    margin-top: 20px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 15px;
+}

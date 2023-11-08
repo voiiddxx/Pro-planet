@@ -1,0 +1,52 @@
+.about{
+    
+   
+    width: 100%;
+    object-fit: cover;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about h1{
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+
+.about-text{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.about-image img{
+    background-color: transparent;
+    height: 40rem;
+    width: 40rem;
+    border: none;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+

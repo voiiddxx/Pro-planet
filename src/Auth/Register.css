@@ -1,0 +1,97 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.register-main{
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+}
+
+.register-left{
+    height: 100%;
+    width: 100%;
+    flex-basis: 44%;
+}
+
+.register-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.register-right{
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 8rem;
+  
+}
+
+.register-right p{
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.register-right h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.register-right form p{
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 5px;
+}
+
+.register-input{
+    height: 45px;
+    width: 380px;
+    background-color: #f8fff9;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+.submit-button{
+    cursor: pointer;
+    height: 45px;
+    width: 400px;
+    background-color: rgb(41, 102, 41);
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+
+.existing-text p{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.existing-text p span{
+    color: green;
+    font-weight: 700;
+}

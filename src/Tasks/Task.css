@@ -1,0 +1,67 @@
+.task-main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    top: 0;
+}
+
+.task-main-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mid-main{
+    height: 100vh;
+    width: 600px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+
+.task-mid h1{
+    padding-top: 20px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+.icon-card{
+    height: 170px;
+    width: 170px;
+}
+
+.card-image{
+    cursor: pointer;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    
+}
+.card-image img{
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+
+.hard{
+    height: 300px;
+    width: 580px;
+    margin-top: 15px;
+    margin-left:8px;
+    border-radius: 10px;
+    cursor: pointer;
+}

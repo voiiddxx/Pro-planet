@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right-nav p{
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid-nav{
+    display: flex;
+    align-items: center;
+}
+
+.mid-nav p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.left-nav p{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}

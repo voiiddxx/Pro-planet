@@ -1,0 +1,92 @@
+.ques-card{
+    background-color: rgb(230, 230, 230);
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.ques-image{
+    margin-left: 20px;
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.ques-image-card{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.ques-text{
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+.ques-text h1{
+    color: rgb(22, 22, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.ques-text h1 span{
+    color: blue;
+}
+
+.ques-text p{
+    color: rgb(25, 25, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.ques-text .detail{
+    color: rgb(87, 87, 87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.ques-text p span{
+    color: rgb(41, 41, 231);
+    
+}
+
+.ques-button{
+    display: flex;
+    gap: 20px;
+}
+
+.button-one{
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(103, 103, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
+.button-one p{
+    color: white;
+}
+.button-two{
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7px;
+}

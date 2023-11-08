@@ -1,0 +1,96 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.addpost-main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.578);
+    position: absolute;
+    top: 0;
+
+}
+
+.addpost{
+    height: 500px;
+    width: 750px;
+    background-color: rgb(226, 226, 226);
+    background-image: url("https://www.designcap.com/media/pages/images/home/clipart.svg?v=1602654254");
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addpost h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.addpost-input{
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 450px;
+    max-lines: 5;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.addimage{
+    height: 150px;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1.5px dashed rgb(28, 28, 28);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.addimage p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(25, 25, 25);
+    
+}
+
+.post-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.upload-button1{
+    height: 50px;
+    width: 450px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+
+.upload-button1 p{
+    font-family: 'Poppins', sans-serif;
+    color: white    ;
+}

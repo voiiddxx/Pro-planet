@@ -1,0 +1,149 @@
+.approve-task-main-admin{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 238, 238);;
+    position: absolute;
+    top: 0;
+}
+.admin-approve-main-content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.admin-approve-mid{
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.admin-approve-mid::-webkit-scrollbar{
+    display: none;
+}
+
+.admin-approve-mid h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.cards-admin{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+}
+
+.admin-approve-card{
+    min-height: 500px;
+    width: 330px;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 1px;
+}
+
+.card-upper{
+    height: 250px;
+}
+
+.card-upper img{
+    height: 250px;
+    width: 330px;
+    object-fit: cover;
+}
+
+.card-bottom h1{
+    color: rgb(37, 37, 255);
+}
+
+.card-bottom p{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(27, 27, 27);
+}
+
+.card-bottom h3{
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.user{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+}
+.user img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user p{
+    font-size: 19px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.approve-admin-button{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+
+.ap-button{
+    height: 50px;
+    width: 170px;
+    background-color: rgb(61, 61, 255);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.ap-button p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    
+}
+
+.ap-button-reject{
+    height: 50px;
+    width: 170px;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ap-button-reject p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+

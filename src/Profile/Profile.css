@@ -1,0 +1,177 @@
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    top: 0;
+}
+.profile-main-content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.profile-mid-th{
+    width: 600px;
+    height: 680px;
+    margin-left: 15px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+
+.prodile-upper{
+    border-radius: 8px;
+}
+
+.upper-user{
+    border-radius: 8px;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.image-div-user img{
+    margin-top:50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    padding: 2px;
+    background-color: white;
+}
+
+.user-text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.user-text h1 span{
+    font-size: 10px;
+    background-color: rgba(87, 87, 87, 0.377);
+    color: white;
+    font-weight: 400;
+    padding: 7px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.user-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.user-text p{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.rating-container{
+    height: 40px;
+    padding-right: 15px;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.rating-container p{
+    margin-left: 10px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: black;
+}
+
+
+.profile-cards-uppr{
+    display: flex;
+    gap: 15px;
+    padding-top: 4px;
+}
+
+.bottom-user{
+    margin-top: 5px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.bottom-user::-webkit-scrollbar{
+    display: none;
+}
+
+.bottom-user-card{
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 250px;
+    flex-basis: 30%;
+    background-color: black;
+}
+
+.bottom-user-card img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.bottom-user-card img:hover{
+    overflow: hidden;
+    opacity: 50%;
+    transition: 0.4s;
+    
+}
+
+.bottom-user h1{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+
+
+}
+
+.follow-button{
+    height: 45px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.follow-button h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.post-loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-loading p{
+    margin-left: 160px;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.approve-main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    top: 0;
+}
+
+.approve-main-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+.admin-mid{
+    height: 700px;
+    width: 600px;
+    background-color: rgb(238, 238, 238) ;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.admin-mid::-webkit-scrollbar{
+    overflow-y: scroll;
+    
+}
+
+.admin-right{
+    margin-left: 15px;
+}
+
+.admin-mid h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(21, 21, 21);
+}
+
+.approve-list{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.approve-card{
+    margin-top: 15px;
+    height: 350px;
+    min-width: 250px;
+    background-color: white;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-image: url("https://www.designcap.com/media/pages/images/home/clipart.svg?v=1602654254");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(87, 124, 255, 0.897);
+    
+    
+}
+
+.applied-image{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.approve-card h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+}
+
+.approve-card p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.approve-button{
+    height: 40px;
+    width: 170px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.approve-button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.approve-button p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
